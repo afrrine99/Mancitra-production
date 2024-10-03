@@ -1,0 +1,36 @@
+.service-icon {
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-icon i {
+    font-size: 30px;
+    color: white;
+}
+.service-item p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+    .service-item {
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-item {
+        margin-bottom: 30px;
+    }
+}

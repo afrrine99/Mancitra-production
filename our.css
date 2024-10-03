@@ -1,0 +1,36 @@
+   /* Custom styles for Our Facilities section */
+   .facilities-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.facility-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.facility-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.facility-icon {
+    font-size: 40px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.facility-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.facility-description {
+    font-size: 16px;
+    color: #555;
+}

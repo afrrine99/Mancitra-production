@@ -1,0 +1,16 @@
+  /* Custom styles to ensure image and content are centered */
+  .team-item {
+    max-width: 400px;
+    margin: 0 auto; /* Center the team item horizontally */
+}
+
+.team-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-img img {
+    max-width: 100%;
+    height: auto;
+}

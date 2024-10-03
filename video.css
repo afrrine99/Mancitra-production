@@ -1,0 +1,19 @@
+.service-item {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.service-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+video {
+    max-width: 100%;
+    border-radius: 10px;
+}
