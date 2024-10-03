@@ -1,0 +1,53 @@
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* Light text */
+    background-size: cover; /* Adjust background size to cover the area */
+    background-position: center; /* Center the background */
+    background-repeat: no-repeat; /* Prevent background repetition */
+}
+
+.footer h4 {
+    margin-bottom: 1rem; /* Space below headings */
+}
+
+.footer p {
+    margin-bottom: 0.5rem; /* Space below paragraphs */
+}
+
+.footer .btn {
+    padding: 0.5rem; /* Consistent padding for buttons */
+    border-radius: 0.25rem; /* Rounded buttons */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .footer {
+        background-size: contain; /* Adjust background size on smaller screens */
+    }
+
+    .footer .col-lg-3 {
+        margin-bottom: 3rem; /* Space between columns on mobile */
+    }
+
+    .footer .col-lg-6 {
+        width: 100%; /* Full width for map on mobile */
+        height: auto; /* Automatic height */
+        min-height: 200px; /* Minimum height for the map */
+    }
+}
+
+@media (max-width: 576px) {
+    .footer {
+        background-size: 100% 100%; /* Full background coverage on very small screens */
+    }
+
+    .footer .col-lg-3, .footer .col-md-6 {
+        flex: 0 0 100%; /* Full width for all columns */
+        max-width: 100%; /* Prevent overflow */
+    }
+
+    .footer .copyright {
+        text-align: center; /* Center text for copyright */
+        font-size: 0.9rem; /* Slightly smaller font size */
+    }
+}

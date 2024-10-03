@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Top bar styles */
+.top-bar-box{
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar {
+    background-color: #d4c2c2;
+    color: black;
+    font-size: 14px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-bar-left {
+    display: flex;
+    align-items: center;
+}
+.top-bar-left img {
+    height: 30px;
+    margin-right: 10px;
+}
+.top-bar-left a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.top-bar-right a {
+    color: black;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.top-bar-right a img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.navbar .logo {
+    display: flex;
+    align-items: center;
+}
